@@ -1,12 +1,7 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
+For this project, I produced a bespoke implementation for sets of integers, with 3 kinds of concrete sets:
+Empty set: gives us the set {}
+Singleton set: sets containing only one number, giving us the set {x}
+Tree Sets: sets containing at least 2 numbers, all tree sets are a tree of 2 branches which are both int sets - with even numbers on the left branch and odd numbers on the right branch. As we traverse the tree, the numbers are divided by 2.
+An IntSet interface provides the methods add(int x), contains(int x), union(IntSet other), and toString() to each set class.
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+
