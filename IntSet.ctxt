@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=IntSet
+comment0.text=\r\n\ An\ abstract\ class\ that\ inclues\ an\ add,\ contains,\ union\ and\ toString\ method.\ \ \r\n\r\n\ @author\ (Lauren)\r\n\ @version\ (01/11/20)\r\n
+comment1.params=x
+comment1.target=IntSet\ add(int)
+comment2.params=x
+comment2.target=boolean\ contains(int)
+comment3.params=other
+comment3.target=IntSet\ union(IntSet)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5

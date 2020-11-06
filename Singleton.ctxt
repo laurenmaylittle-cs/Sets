@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Singleton
+comment0.text=\r\n\ A\ class\ that\ creates\ a\ singleton\ set.\ \r\n\r\n\ @author\ (Lauren)\r\n\ @version\ (01/11/20)\r\n
+comment1.params=n
+comment1.target=Singleton(int)
+comment1.text=\r\n\ Constructor\r\n\ @param\ n\ is\ the\ integer\ in\ the\ singleton\ set\r\n
+comment2.params=n
+comment2.target=IntSet\ singleton(int)
+comment2.text=\r\n\ Smart\ constructor\r\n\ @param\ n\ is\ the\ integer\ to\ be\ in\ the\ singleton\ set\r\n\ @return\ a\ singleton\ set\ with\ the\ value\ n\r\n
+comment3.params=x
+comment3.target=IntSet\ add(int)
+comment3.text=\r\n\ Method\ to\ add\ an\ integer\ to\ a\ singleton\ set\ \r\n\ @param\ x\ \r\n\ @return\ a\ tree\ set\ with\ the\ value\ n\r\n
+comment4.params=x
+comment4.target=boolean\ contains(int)
+comment4.text=\r\n\ Method\ to\ see\ if\ an\ integer\ is\ in\ the\ singleton\ set\ \r\n\ @param\ x,\ the\ value\ to\ check\ \r\n\ @return\ true\ if\ x\ is\ in\ the\ set,\ otherwise\ false\ \r\n
+comment5.params=other
+comment5.target=IntSet\ union(IntSet)
+comment5.text=\r\n\ Method\ to\ use\ union\ to\ combine\ 2\ sets\r\n\ @param\ other\ is\ the\ set\ to\ do\ union\ on\r\n\ @return\ a\ tree\ set\ of\ singleton\ and\ other\ or\ a\ singleton\ if\ other\ was\ an\ empty\ set\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ method\ to\ return\ the\ singleton\ in\ set\ format\ \ \r\n\ @return\ a\ string\ {x}\ where\ x\ is\ an\ integer\ \r\n
+numComments=7
